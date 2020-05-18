@@ -1,0 +1,40 @@
+#about-section{
+    padding: 60px 0;
+    @include media-breakpoint-down(sm){
+        padding: 10px 0;
+    }
+    .paws{
+        i{
+            color: $theme-color;
+            font-size: 32px;
+        }
+    }
+    .heading-section{
+        .lead{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        p{
+            color: #6c757d !important;
+            line-height: 1.7;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+        ul{
+            padding-left: 0;
+             li{
+                position: relative;
+                margin-bottom: 15px;
+                line-height: 1.5;
+                color: gray;
+                font-weight: 400;
+                font-size: 16px;
+                i{
+                    color: $theme-color;
+                    font-size: 20px;
+                    margin-right: 14px;
+                }
+             }
+        }
+    }
+}
